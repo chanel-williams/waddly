@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waddly</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="start-page" class="page">
+    
+    <img src="New Piskel (1).gif" class="decor" />
+<img src="New Piskel (1).gif" class="decor" />
+    <h1>Waddly</h1>
+    <p>A space for focused study sessions</p>
+
+    <button id="start-btn">Start Studying</button>
+  </div>
+
+  <div id="timer-page" class="page hidden">
+<img src="New Piskel (1).gif" class="decor" />
+<img src="New Piskel (1).gif" class="decor" />
+<div id="timer-page" class="hidden">
+</div>
+
+    <h2 id="mode">Study</h2>
+    <div id="timer">01:00</div>
+
+    <button id="start-timer-btn" class="hidden">Start</button>
+
+    <div class="buttons">
+      <button id="back-btn">⬅ Back</button>
+      <button id="pause-btn">Pause</button>
+      <button id="break-btn">Start Break</button>
+    </div>
+   
+    <div id="study-tip">Focus!</div>
+  </div>
+
+   <div id="break-page" class="page hidden">
+    <h2>Break Time!</h2>
+    <p id="break-text">Take a short rest before the next study session.</p>
+    <button id="start-break-btn">Start Break</button>
+  </div>
+
+  <div id="decision-page" class="page hidden">
+    <h2>Your break is over</h2>
+    <p>What would you like to do next?</p>
+
+    <button id="study-again-btn">Back to Study</button>
+    <button id="another-break-btn">Take Another Break</button>
+    <button id="end-session-btn">End Session</button>
+  </div>
+
+  <div id="thankyou-page" class="page hidden">
+    <h2>Thanks for using Waddly</h2>
+
+    <p>Sessions Completed: <span id="session-count">0</span></p>
+
+
+    <button id="restart-btn">Start New Session</button>
+  </div>
+
+<audio id="click-sound" src="sounds/click.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
