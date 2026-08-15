@@ -157,14 +157,18 @@ button:disabled {
 
 @media (max-width: 768px) {
 
+  body {
+    padding: 20px;
+  }
+
   #start-page,
   #timer-page,
   #break-page,
   #decision-page,
   #thankyou-page {
-    width: 90%;
-    max-width: 400px;
-    padding: 25px 20px;
+    width: 100%;
+    max-width: 380px;
+    padding: 25px 15px;
   }
 
   h1 {
@@ -173,6 +177,10 @@ button:disabled {
 
   h2 {
     font-size: 16px;
+  }
+
+  p {
+    font-size: 10px;
   }
 
   #timer {
