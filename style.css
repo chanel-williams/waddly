@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Press Start 2P', cursive;
   background: #FFF9C4;
@@ -158,9 +162,9 @@ button:disabled {
   #break-page,
   #decision-page,
   #thankyou-page {
-
     width: 90%;
-    padding: 25px;
+    max-width: 400px;
+    padding: 25px 20px;
   }
 
   h1 {
