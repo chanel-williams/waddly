@@ -155,33 +155,3 @@ button:disabled {
   }
 }
 
-@media (max-width: 768px) {
-
-  #start-page,
-  #timer-page,
-  #break-page,
-  #decision-page,
-  #thankyou-page {
-    width: 90%;
-    max-width: 400px;
-    padding: 25px 20px;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-
-  h2 {
-    font-size: 16px;
-  }
-
-  #timer {
-    font-size: 48px;
-  }
-
-  button {
-    font-size: 10px;
-    padding: 12px 16px;
-  }
-}
-
