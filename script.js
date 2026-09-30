@@ -25,8 +25,8 @@ const restartBtn = document.getElementById('restart-btn');
 
 const sessionCountDisplay = document.getElementById('session-count');
 
-let studyTime = 25:00;
-let breakTime = 5:00;
+let studyTime = 25 * 60;
+let breakTime = 5 * 60;
 let timeLeft = studyTime;
 
 let timerInterval = null;
